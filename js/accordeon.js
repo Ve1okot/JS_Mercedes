@@ -6,7 +6,7 @@ btns.forEach((btnItem, index) => {
         btns.forEach((btnItem) => {           
             btnItem.classList.remove('feature__link_active')            
         })
-        btnItem.classList.toggle('feature__link_active')
+        btnItem.classList.add('feature__link_active')
         btnItem.addEventListener('click', () => {
             btnItem.classList.toggle('feature__link_active')            
             })
